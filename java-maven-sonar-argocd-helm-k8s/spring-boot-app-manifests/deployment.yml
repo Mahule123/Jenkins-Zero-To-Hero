@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-      - image: mahule/ultimate-cicd:7
+      - image: mahule/ultimate-cicd:replaceImageTag
         ports:
         - containerPort: 8080
