@@ -1,0 +1,8 @@
+pipeline 
+agent any {
+stages('checkout'){
+steps {
+sh 'echo passed'
+}
+}
+}
